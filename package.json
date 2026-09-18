@@ -2,14 +2,21 @@
   "name": "matheus-personal-site",
   "version": "1.0.0",
   "private": true,
-  "description": "Site estático profissional do personal trainer Matheus Martins.",
+  "description": "Site profissional do personal trainer Matheus Martins, preparado para deploy na Vercel com Next.js.",
   "scripts": {
-    "build": "echo Site estatico pronto"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "keywords": [
-    "personal-trainer",
-    "site-estatico",
-    "vercel"
-  ],
-  "license": "UNLICENSED"
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
 }
