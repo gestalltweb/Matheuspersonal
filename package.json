@@ -1,0 +1,19 @@
+{
+  "name": "matheus-personal-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site estático profissional do personal trainer Matheus Martins.",
+  "scripts": {
+    "build": "echo Site estatico sem etapa de build",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "personal-trainer",
+    "site-estatico",
+    "vercel"
+  ],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "serve": "latest"
+  }
+}
