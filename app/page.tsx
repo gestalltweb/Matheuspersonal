@@ -15,18 +15,18 @@ const siteMarkup = String.raw`
 
 <main>
   <section class="hero" id="inicio">
-    <div class="hero-copy reveal">
+    <div class="hero-copy hero-intro">
       <p class="eyebrow"><span></span> Personal Trainer · CREF 211765-G/SP</p>
-      <h1>CIÊNCIA NO<br /><em>MOVIMENTO.</em></h1>
+      <h1><span class="hero-line">CIÊNCIA NO</span><span class="hero-line"><em>MOVIMENTO.</em></span></h1>
       <p class="hero-description">Treinamento baseado em evidência para construir performance, força e qualidade de vida.</p>
       <a class="button button-primary" href="https://www.instagram.com/treinadormatheusmartins/" target="_blank" rel="noreferrer">Começar agora <b>→</b></a>
     </div>
-    <div class="hero-image reveal">
-      <img src="/assets/matheus-cref.jpg" alt="Matheus Martins, personal trainer, em ambiente de academia" />
+    <div class="hero-image hero-photo">
+      <img src="/assets/matheus-cref-2026.jpg" alt="Arte profissional de Matheus Martins como personal trainer, com CREF 211765-G/SP" data-parallax />
       <div class="hero-image-shade"></div>
       <p class="vertical-copy">TREINAMENTO PERSONALIZADO</p>
     </div>
-    <div class="hero-meta reveal"><span>01 — 06</span><span>Role para descobrir</span><span class="scroll-line"></span></div>
+    <div class="hero-meta hero-intro"><span>01 — 06</span><span>Role para descobrir</span><span class="scroll-line"></span></div>
   </section>
 
   <section class="intro section" id="sobre">
@@ -39,7 +39,7 @@ const siteMarkup = String.raw`
         <a class="text-link" href="https://www.instagram.com/treinadormatheusmartins/" target="_blank" rel="noreferrer">Conheça o Matheus <span>↗</span></a>
       </div>
     </div>
-    <div class="intro-image reveal"><img src="/assets/9a718b5db79d8e8f.jpg" alt="Matheus Martins em apresentação acadêmica" /><div class="image-caption">Educação Física — UNESP <span>2025</span></div></div>
+    <div class="intro-image reveal image-reveal"><img src="/assets/matheus-pesquisa-2026.jpg" alt="Matheus Martins apresentando pesquisa acadêmica em atividade física e saúde" loading="lazy" data-parallax /><div class="image-caption">Pesquisa e ciência do movimento <span>2026</span></div></div>
   </section>
 
   <section class="principles section">
@@ -52,7 +52,7 @@ const siteMarkup = String.raw`
   </section>
 
   <section class="method section" id="metodo">
-    <div class="method-image reveal"><img src="/assets/9dc3f6e423ae483d.jpg" alt="Matheus Martins em ambiente de treino" /></div>
+    <div class="method-image reveal image-reveal"><img src="/assets/matheus-treino-2026.jpg" alt="Matheus Martins concentrado durante uma sessão de treinamento" loading="lazy" data-parallax /></div>
     <div class="method-content">
       <div class="section-label reveal"><span>02</span> Como funciona</div>
       <h2 class="display reveal">SEU OBJETIVO.<br /><em>SEU CAMINHO.</em></h2>
@@ -68,8 +68,7 @@ const siteMarkup = String.raw`
   <section class="journal section" id="conteudos">
     <div class="journal-heading"><div class="section-label reveal"><span>03</span> Conteúdos</div><h2 class="display reveal">TREINE MELHOR.<br /><em>ENTENDA MAIS.</em></h2><p class="reveal">Conteúdo para ajudar você a tomar decisões mais conscientes sobre treino, saúde e performance.</p></div>
     <div class="featured-article reveal">
-      <img src="/assets/7f03a9317403d9a0.jpg" alt="Arte de Matheus Martins como personal trainer" />
-      <div class="featured-copy"><p class="article-tag">TREINAMENTO · 6 MIN</p><h3>POR QUE TER ORIENTAÇÃO MUDA O SEU TREINO?</h3><p>Treinar com estratégia é criar um processo que respeita técnica, progressão, recuperação e contexto.</p><a class="text-link" href="#contato">Ler artigo <span>→</span></a></div>
+      <div class="featured-copy"><p class="article-tag">TREINAMENTO · 6 MIN</p><h3>POR QUE TER ORIENTAÇÃO MUDA O SEU TREINO?</h3><p>Treinar com estratégia é criar um processo que respeita técnica, progressão, recuperação e contexto.</p><a class="text-link" href="#contato">Ver o blog <span>→</span></a></div>
     </div>
     <div class="article-grid">
       <article class="article-card reveal"><span class="article-index">01</span><p class="article-tag">PERFORMANCE · EM BREVE</p><h3>CONSISTÊNCIA: O QUE SUSTENTA A EVOLUÇÃO</h3><a href="#contato" aria-label="Ver conteúdo sobre consistência">→</a></article>
@@ -97,3 +96,4 @@ export default function Home() {
     </>
   );
 }
+
