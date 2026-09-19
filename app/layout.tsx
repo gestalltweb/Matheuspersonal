@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next';
 
 export const metadata: Metadata = {
   title: 'Matheus Martins — Personal Trainer',
-  description: 'Treinamento baseado em evidência para performance, hipertrofia e condicionamento.',
+  description: 'Treinamento individualizado com avaliação criteriosa, planejamento baseado em evidências e acompanhamento presencial ou on-line.',
 };
 
 export const viewport: Viewport = {
@@ -23,4 +23,3 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
-
