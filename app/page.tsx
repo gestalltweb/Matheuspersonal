@@ -22,7 +22,7 @@ const siteMarkup = String.raw`
       <a class="button button-primary" href="https://www.instagram.com/treinadormatheusmartins/" target="_blank" rel="noreferrer">Começar agora <b>→</b></a>
     </div>
     <div class="hero-image hero-photo">
-      <img src="/assets/matheus-cref-2026.jpg" alt="Arte profissional de Matheus Martins como personal trainer, com CREF 211765-G/SP" data-parallax />
+      <img src="/assets/matheus-hero-clean-v2.jpg" alt="Matheus Martins de braços cruzados em uma academia" data-parallax />
       <div class="hero-image-shade"></div>
       <p class="vertical-copy">TREINAMENTO PERSONALIZADO</p>
     </div>

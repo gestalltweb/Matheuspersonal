@@ -241,6 +241,7 @@ img { display: block; max-width: 100%; }
   border-top: 1px solid rgba(240, 138, 28, 0.45);
   border-bottom: 1px solid var(--line);
 }
+.featured-article > img { display: none !important; }
 .featured-article::after {
   content: "";
   position: absolute;
